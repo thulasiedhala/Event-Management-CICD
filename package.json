@@ -57,7 +57,7 @@
     "preview": "vite preview",
     "type-check": "tsc --noEmit -p .",
     "docker:build": "vite build",
-    "docker:final-build": "vite build --emptyOutDir"                 
+    "docker:final-build": "vite build --config false --emptyOutDir"                 
 },
 "devDependencies": {
     "typescript": "^5.0.2"                     
