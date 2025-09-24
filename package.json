@@ -55,7 +55,7 @@
     "dev": "vite",
     "build": "npm run type-check && vite build",  
     "preview": "vite preview",
-    "type-check": "tsc --noEmit"                 
+    "type-check": "tsc --noEmit -p ."                 
 },
 "devDependencies": {
     "typescript": "^5.0.2"                     
